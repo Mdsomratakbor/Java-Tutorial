@@ -21,8 +21,22 @@
 ### 4. Types of Variables and its Scope in Java?
 `There are three types of variables.`
 
-- **Instance Variables**
-- **Class Variables**
-- **Local Variables**
+- **1. Instance Variables**
+- **2. Class Variables**
+- **3. Local Variables**
+- 
+***Instance Variables***
+`A variable which is declared inside a class, but is declared outside any methods and blocks is known as instance variable.`
+**Scope:** `Throughout the class except in the static methods.`
+**Lifetime:** `Until the object of the class stays in the memory.`
 
+***Class Variables***
+`A variable which is declared inside a class, outside all the blocks and is declared as static is known as class variable.`
+**Scope:** `Throughout the class.`
+**Lifetime:** `Until the end of the program.`
 
+***Local Variables***
+`All variables which are not instance or class variables are known as local variables.`
+**Scope:** `Within the block it is declared.`
+**Lifetime:** `Until control leaves the block in which it is declared.
+Now, let us look at an example code to paint a clear picture and understand the concept of scope and lifetime of variables better.`
