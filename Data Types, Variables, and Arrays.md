@@ -25,7 +25,7 @@
 - **2. Class Variables**
 - **3. Local Variables**
 - 
-***Instance Variables***
+**Instance Variables**
 `A variable which is declared inside a class, but is declared outside any methods and blocks is known as instance variable.`
 **Scope:** `Throughout the class except in the static methods.`
 **Lifetime:** `Until the object of the class stays in the memory.`
