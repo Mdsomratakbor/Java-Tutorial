@@ -18,6 +18,11 @@
 - Scopes can be nested.
 - Variables are created when their scope is entered, and destroyed when their scope is left.
 - The lifetime of a variable is confined to its scope.
-   
+### 4. Types of Variables and its Scope in Java?
+`There are three types of variables.`
+
+- **Instance Variables**
+- **Class Variables**
+- **Local Variables**
 
 
