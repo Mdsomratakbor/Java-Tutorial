@@ -61,5 +61,5 @@ Now, let us look at an example code to paint a clear picture and understand the 
 `The process of converting a value from one data type to another is known as type conversion in Java.`
 
 `Widening conversion takes place when two data types are automatically converted. This happens when:`
- -**The two data types are compatible.**
- -**When we assign a value of a smaller data type to a bigger data type.**
+-**The two data types are compatible.**
+-**When we assign a value of a smaller data type to a bigger data type.**
