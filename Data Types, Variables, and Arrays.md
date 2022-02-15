@@ -88,4 +88,11 @@ class ConvertionVariable {
 ### What is Type Casting in Java?
 `In typing casting, a data type is converted into another data type by the programmer using the casting operator during the program design. In typing casting, the destination data type may be smaller than the source data type when converting the data type to another data type, that’s why it is also called narrowing conversion.`
 
+**Example :**
+<pre>
+float x;
+byte y;
+y=(byte)x; 
+<pre>
+
 
