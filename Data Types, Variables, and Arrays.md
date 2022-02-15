@@ -9,4 +9,6 @@
 - **2. Non-primitive data types:** `The non-primitive data types include Classes, Interfaces, and Arrays.`
 
    ![java-data-types](https://user-images.githubusercontent.com/53125546/154004892-b68cc95f-40e7-4126-b487-4fb83ce1d9c4.png)
+   
+
 
