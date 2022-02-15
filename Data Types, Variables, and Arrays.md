@@ -42,7 +42,7 @@
 Now, let us look at an example code to paint a clear picture and understand the concept of scope and lifetime of variables better.`
 
 **Example:**
-`public class scope_and_lifetime {
+<pre>public class scope_and_lifetime {
     int num1, num2;   //Instance Variables
     static int result;  //Class Variable
     int add(int a, int b){  //Local Variables
@@ -55,4 +55,4 @@ Now, let us look at an example code to paint a clear picture and understand the 
         result = ob.add(10, 20);
         System.out.println("Sum = " + result);
     }
-}`
+}</pre>
