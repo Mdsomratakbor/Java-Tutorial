@@ -25,18 +25,34 @@
 - **2. Class Variables**
 - **3. Local Variables**
 
-**Instance Variables**
+**Instance Variables:**
 `A variable which is declared inside a class, but is declared outside any methods and blocks is known as instance variable.`
 **Scope:** `Throughout the class except in the static methods.`
 **Lifetime:** `Until the object of the class stays in the memory.`
 
-***Class Variables***
+***Class Variables:***
 `A variable which is declared inside a class, outside all the blocks and is declared as static is known as class variable.`
 **Scope:** `Throughout the class.`
 **Lifetime:** `Until the end of the program.`
 
-***Local Variables***
+***Local Variables:***
 `All variables which are not instance or class variables are known as local variables.`
 **Scope:** `Within the block it is declared.`
 **Lifetime:** `Until control leaves the block in which it is declared.
 Now, let us look at an example code to paint a clear picture and understand the concept of scope and lifetime of variables better.`
+
+**Example:**
+`public class scope_and_lifetime {
+    int num1, num2;   //Instance Variables
+    static int result;  //Class Variable
+    int add(int a, int b){  //Local Variables
+        num1 = a;
+        num2 = b;
+        return a+b;
+    }
+    public static void main(String args[]){
+        scope_and_lifetime ob = new scope_and_lifetime();
+        result = ob.add(10, 20);
+        System.out.println("Sum = " + result);
+    }
+}`
