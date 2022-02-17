@@ -125,5 +125,27 @@ System.out.println("After conversion, float value "+z);
 }  
 } 
 </pre>
+![image](https://user-images.githubusercontent.com/53125546/154499123-9e8d3d98-89d6-4aba-bcf5-2ced3daae86f.png)
 
+**Narrowing Type Casting :**`Converting a higher data type into a lower one is called narrowing type casting. It is also known as explicit conversion or casting up. It is done manually by the programmer. If we do not perform casting then the compiler reports a compile-time error.`
 
+**Example:**
+<pre>
+public class NarrowingTypeCastingExample  
+{  
+public static void main(String args[])  
+{  
+double d = 166.66;  
+//converting double data type into long data type  
+long l = (long)d;  
+//converting long data type into int data type  
+int i = (int)l;  
+System.out.println("Before conversion: "+d);  
+//fractional part lost  
+System.out.println("After conversion into long type: "+l);  
+//fractional part lost  
+System.out.println("After conversion into int type: "+i);  
+}  
+} 
+</pre>
+![image](https://user-images.githubusercontent.com/53125546/154499290-9fe7496e-e8a6-49a1-8b84-7429012ef6c1.png)
