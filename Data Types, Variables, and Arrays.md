@@ -57,7 +57,7 @@ Now, let us look at an example code to paint a clear picture and understand the 
     }
 }</pre>
 
-### What is Type conversion in Java?
+### 5. What is Type conversion in Java?
 `The process of converting a value from one data type to another is known as type conversion in Java.`
 
 `Widening conversion takes place when two data types are automatically converted. This happens when:`</br>
@@ -85,7 +85,7 @@ class ConvertionVariable {
 }
 </pre>
 
-### What is Type Casting in Java?
+### 6. What is Type Casting in Java?
 `In typing casting, a data type is converted into another data type by the programmer using the casting operator during the program design. In typing casting, the destination data type may be smaller than the source data type when converting the data type to another data type, that’s why it is also called narrowing conversion.`
 
 **Example :**
@@ -93,7 +93,37 @@ class ConvertionVariable {
 float x;
 byte y;
 y=(byte)x; 
+</pre>
+
+
+### 7. Types of Casting in Java?
+
+`There are two types of type casting:`
+
+- **Widening Type Casting/implicit conversion or casting down.**
+- **Narrowing Type Casting/explicit conversion or casting up.**
+
+**Widening Type Casting:**`Converting a lower data type into a higher one is called widening type casting. It is also known as implicit conversion or casting down. It is done automatically. It is safe because there is no chance to lose data. It takes place when:`
+
+- `Both data types must be compatible with each other.`
+- `The target type must be larger than the source type.`
+
+**Example :**
 <pre>
+public class WideningTypeCastingExample  
+{  
+public static void main(String[] args)  
+{  
+int x = 7;  
+//automatically converts the integer type into long type  
+long y = x;  
+//automatically converts the long type into float type  
+float z = y;  
+System.out.println("Before conversion, int value "+x);  
+System.out.println("After conversion, long value "+y);  
+System.out.println("After conversion, float value "+z);  
+}  
+} 
+</pre>
 
 
-### Types of Casting in Java?
