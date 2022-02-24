@@ -150,7 +150,7 @@ System.out.println("After conversion into int type: "+i);
 </pre>
 ![image](https://user-images.githubusercontent.com/53125546/154499290-9fe7496e-e8a6-49a1-8b84-7429012ef6c1.png)
 
-### What is Array in Java?
+### 8. What is Array in Java?
 
 `An array is a container object that holds a fixed number of values of a single type. The length of an array is established when the array is created. After creation, its length is fixed.`
 **Array Declaration Syntax: **
