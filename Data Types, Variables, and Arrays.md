@@ -220,3 +220,12 @@ Element at index 7: 800
 Element at index 8: 900
 Element at index 9: 1000
 </pre>
+
+### 9. What is Multidimensional Array in Java?
+`Multidimensional array is an array of arrays having multiple rows and columns. Data or elements in multidimensional array is stored in the form of rows and columns. Data is accessed using row column index.`
+
+**Syntax:**
+`datatype[1][2]…[nth dimension] arrayname = new datatype[1][2]…[nth size]`
+**or**
+`datatype[][] arrayName;`
+
