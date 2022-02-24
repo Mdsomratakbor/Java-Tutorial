@@ -229,3 +229,27 @@ Element at index 9: 1000
 **or**
 `datatype[][] arrayName;`
 
+![image](https://user-images.githubusercontent.com/53125546/155451688-70238b31-8e62-4259-ac54-b1fd7d177ac9.png)
+
+**Example :**
+<pre>
+public class TwodimensionalArrayExample
+{
+   public static void main(String[] args) 
+   {
+      // declare and initialize two dimensional array
+      int[][] arrnumbers = {{2, 4},{6, 8},{10, 12}};   
+      System.out.println("Two dimensional array: ");    
+      for(int a = 0; a < 3; a++) 
+      {
+         for(int b = 0; b < 2; b++) 
+         {
+            System.out.println(arrnumbers[a][b]);
+         }
+      }
+   }
+}
+</pre>
+![image](https://user-images.githubusercontent.com/53125546/155451804-59aa3172-f3f4-4bdb-a0c0-26dc86d840d2.png)
+
+
