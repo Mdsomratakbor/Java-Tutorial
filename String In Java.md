@@ -40,7 +40,8 @@ class Main {
 **2. By new keyword**
 
 **Frist:** `String Literal`
-`Java String literal is created by using double quotes. For Example:`
+
+`Java String literal is created by using double quotes.`
 
 **syntax**
 <pre>
