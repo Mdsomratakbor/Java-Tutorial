@@ -36,3 +36,13 @@ console.log(constVariable);
 ![image](https://user-images.githubusercontent.com/53125546/189515569-23c0b0aa-4ea2-4514-9d7c-d8152ee81dd4.png)
 
 
+### Example 2
+<pre>
+   console.log(varVariableValue);
+    var varVariableValue = 'md somrat akbor with var variable';
+    console.log(letVariableValue);
+    let letVariableValue='md somrat akbor with let variable';
+</pre>
+
+
+
