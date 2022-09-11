@@ -46,3 +46,15 @@ console.log(constVariable);
 
 **browser console var and let variable **
 ![image](https://user-images.githubusercontent.com/53125546/189515995-a497f696-99be-46d3-84e9-bde696cd5282.png)
+
+<pre>
+    console.log(varVariableValue);
+    var varVariableValue = 'md somrat akbor with var variable';
+    console.log(constVariableValue);
+    const constVariableValue='md somrat akbor with const variable';
+    console.log(letVariableValue);
+</pre>
+
+**browser console var and const variable**
+![image](https://user-images.githubusercontent.com/53125546/189516051-bd2e973b-51d0-4da4-a6a3-370b0ddbaff0.png)
+
