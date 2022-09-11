@@ -44,5 +44,5 @@ console.log(constVariable);
     let letVariableValue='md somrat akbor with let variable';
 </pre>
 
-
-
+**browser console var and let variable **
+![image](https://user-images.githubusercontent.com/53125546/189515995-a497f696-99be-46d3-84e9-bde696cd5282.png)
