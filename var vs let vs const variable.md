@@ -69,3 +69,5 @@ console.log(constVariable);
     const constName = 'Chuck'; // this is not possible
 </pre>
 
+
+
