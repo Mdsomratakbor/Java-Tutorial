@@ -58,3 +58,14 @@ console.log(constVariable);
 **browser console var and const variable**
 ![image](https://user-images.githubusercontent.com/53125546/189516051-bd2e973b-51d0-4da4-a6a3-370b0ddbaff0.png)
 
+
+### Example 3
+<pre>
+   var varName = 'Md Somrat Akbor';
+    var varName = 'Md Akbor';
+    let letName = 'Devid'; // this is not possible
+    let letName = ''; // this is not possible 
+    const constName = 'Nethan'; // this is not possible
+    const constName = 'Chuck'; // this is not possible
+</pre>
+
